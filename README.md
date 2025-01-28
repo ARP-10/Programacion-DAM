@@ -29,5 +29,7 @@ Este repositorio contiene ejercicios, proyectos y conceptos estudiados durante e
   - Uso de `try-catch-finally`  
 
 - **Ficheros en Java**  
-  - Lectura y escritura de archivos  
-  - Serialización  
+  - Introducción a la gestión de archivos en Java.  
+  - Creación, lectura y escritura de archivos de texto.  
+  - Uso de las clases `File`, `FileReader`, `FileWriter`, y `BufferedReader`.  
+  - Gestión de excepciones relacionadas con el manejo de ficheros
