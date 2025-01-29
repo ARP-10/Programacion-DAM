@@ -1,0 +1,11 @@
+Supongamos que estamos creando un programa para una tienda de productos electronicos que vende telefonos moviles, tabletas y portatiles. Tenemos una clase abstracta llamada "ProductoElectronico" que tiene atributos comunes a todos los productos electronicos, como el nombre del producto, el precio y la marca. Tendra un constructor con todos los atributos como parametro. Crea los metodos get de todos los atributos. Tambien queremos que nuestros productos electronicos puedan conectarse a internet, por lo que creamos una interfaz "ConectividadInternet" que tiene un metodo "conectarInternet()".
+
+Luego, creamos las siguientes clases:
+
+- "TelefonoMovil": esta clase extiende la clase "ProductoElectronico" y tambien implementa la interfaz "ConectividadInternet". Ademas de los atributos heredados, un telefono movil tambien tiene un numero de modelo, capacidad de almacenamiento y numero de nucleos del procesador. Crea un constructor en el que se asignen todos los atributos. El metodo "conectarInternet()" en esta clase se implementa para indicar que el telefono movil se conecta a internet a travez de una red movil. Agrega un atributo y un metodo de clase para contar cuantos telefonos moviles has creado.
+
+- "Tableta": esta clase extiende de la clase "ProductoElectronico" y tambien implementa la interfaz "ConectividadInternet". Ademas de los atributos heredados, una tableta tambien tiene un tamano de pantalla, una capacidad de almacenamiento y un tipo de bateria. El metodo "conectarInternet()" en esta clase se implementa para indicar que la tableta se conecta a internet a traves de Wi-Fi.
+
+- "Portatil": esta clase extiende de la clased "ProductoElectronico" y tambien implementa la interfaz "ConectividadInternet". Ademas de los atributos heredados, un portatil tambien tiene una capacidad de almacenamiento, una cantidad de memoria RAM y una tarjeta grafica. El metodo "conectarInternet()" en esta clase se implmenta para indicar que el portatil se conecta a internet a traves de Wi-Fi o Ethernet.
+
+En el programa principal, podemos crear objetos de estas clases y llamar al metodo "conectarInternet()" para mostrar como cada tipo de producto electronico se conecta a internet de manera diferente dependiendo de su implementacion de la interfaz "ConectividadInternet".

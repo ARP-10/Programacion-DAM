@@ -1,2 +1,0 @@
-Crear una clase que represente un banco, con metodos para depositar y retirar dinero de una cuenta
-bancaria y con un unico atributo que representara el saldo. Habra un constructor al que se le pasara por parametro el saldo. Elmetodo para retirar dinero debe lanzar una excepcion si se intenta retirar mas dinero del que hay disponible en la cuenta. Esta excepcion sera creada por nosotros y se llamara SalfoInsuficienteException. Crea una clase de prueba con un main en el que se inicialice un objeto de tipo Banco y se pruebe su funcionalidad.
